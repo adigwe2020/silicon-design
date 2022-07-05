@@ -1,0 +1,257 @@
+
+   *{margin:0;padding:0;list-style-type:none;text-decoration:none;}
+   .sil{flex:1;justify-content:center}
+   .menu{flex:1}
+   .fa-angle-down{padding-top:20px}
+   .fasman{flex:1;margin-bottom:10px}
+   .fasman i{margin:5px}
+
+    .nav{display:flex;align-items:center;position: sticky;top: 0;z-index: 10;
+     padding: 0 70px;width: 100%;background-color: #fff;}
+    .unlist{display:flex}
+   .unlist li{padding:20px 10px;}
+
+    .unlist li a::after{
+    content:"";
+    display:block;
+    width:0%;
+    background-color:red;
+    margin:auto;
+    height:2px;
+    transition:0.5s;  
+    }
+    .unlist li a:hover::after{
+     width:100%;
+    }
+   
+    
+   .fashion{display:flex;background:pink;width:100%;position:relative}
+   .chevron{position:absolute;cursor:pointer;top:200px;font-size:30px;}
+  .aa{left:20px}
+  .bb{right:20px}
+  
+    .collect h1{font-size:35px}
+     .collect h2{font-size:35px}
+    
+    .collect{flex:1;text-align:center;padding-top:50px}
+    .girl-img{width:480px;height:350px}
+    .girl{flex:1}
+    .shop{background:red;padding:15px 35px;color:#fff}
+     .collect a{display:inline-block;margin-top:20px}
+     .product{margin-top:50px;text-align:center;}
+     .baggirl{display:flex;justify-content:center;padding-top:40px}
+     .good-img{width:250px;height:320px;padding:0 15px}
+     
+       .bagg p{margin:10px 60px}
+      .bagg i{color:#ff0000;font-size:12px;}
+      .people{display:flex;background-color:silver;justify-content:space-around;margin-top:40px;}
+      .shopi{display:block;background:red;padding:10px;color:#fff;width:90px;margin:30px 80px}
+      .great-img{width:480px;height:350px}
+      .reduce{margin-top:90px}
+      .reduce h3{margin:0 30px;font-size:60px}
+      .reduce p{font-size:25px}
+      .women{display:flex}
+      .bagg{text-align:center}
+       .shoe{display:flex;justify-content:center;padding-top:40px}
+       .popular{text-align:center;margin-top:40px;}
+        .glass-img{width:200px;height:250px;padding:0 15px}
+        .glass i{color:#ff0000;font-size:12px;}
+        .glass{text-align:center;margin-top:20px}
+        .secure{display:flex;justify-content:center;margin-top:60px}
+        .money h2{font-size:15px;align-items:center;margin:3px}
+        .money{border:1px solid;padding:10px 14px;text-align:center;margin:15px;height:100px}
+        .trending{margin-top:50px;text-align:center}
+        .startrend{display:flex;justify-content:center;padding-top:40px}
+        .trend-img{width:250px;height:320px;padding:0 15px}
+        .trend{text-align:center}
+         .trend i{color:#ff0000;font-size:12px;}
+              .overtrend{display:flex;justify-content:center;padding-top:20px}
+              .render-img{width:250px;height:320px;padding:0 15px}
+              .render{text-align:center}
+              .render i{color:#ff0000;font-size:12px;}
+              .silono{margin-top:50px;text-align:center}
+        .elishaman{display:flex;width:100%}
+        .empty{background:#ff0000;width:20px;height:10px}
+        .march{display:flex;align-items:center;margin:15px 20px}
+         .elijah-img{width:300px;height:340px;padding:0 25px;margin:20px 0}
+         .elijah h2{padding:0 15px}
+         .march p{margin:0 20px;color:lightgrey;font-size:25px}
+         .create{border-bottom:1px solid lightgrey;margin:15px 17px;width:380px}
+         .elijah{margin:5px}
+         .unlist{display:flex}
+         .unlist li a{margin:0 10px;color:black;font-size:13px}
+         .follow{text-align:center}
+         .girlfinal{display:flex;margin:10px;justify-content:space-evenly}
+         .final-img{width:300px}
+         .mobil{display:flex;background:lightgray;margin-top:40px;width:100%}
+         .linkme{flex:1;margin:50px}
+         .linkme h2{font-size:15px}
+         .final li{margin:5px}
+         .linkme li a{color:black}
+         .stored{margin:13px 1px;
+          display: flex;
+        }
+         .apple{background:red;color:#fff;border-radius:5px;width:120px;height:40px;text-align:center;margin:0 10px;display:flex;
+         outline-color:blue 4px solid}
+         .andriod{background:white;color:#fff;border-radius:5px;width:120px;height:40px;text-align:center;display:flex}
+         .playme p{color:dimgray;font-size:10px;margin-right:22px}
+          .heart i{color:red;padding:10px 4px} 
+         .fasman{padding:15px 0}
+           .fasman i{margin:5px;background:white;padding:5px;transition:1s}
+                       .fasman i:hover{color:red;transform:rotate(360deg)}  
+         .shopping{padding-top:10px ;margin:10px 1}
+          .playme{padding:9px 10px}
+         .playme h2{color:black;font-size:10px;}
+         .playday h2{color:white;font-size:11px;}
+          .playday p{font-size:10px;margin-right:15px}
+          .playday{padding:7px 10px}
+           .hat i{color:white;padding:10px 4px}
+
+       .select{background: unset;
+        border: none;
+        height: 62px;}
+
+ .hamburger{
+    cursor: pointer;margin: 40px 100px;display:none
+}
+ .line{
+   background-color: black;
+   width: 25px;
+   height: 2px;
+   margin: 3px;transition: 1s;
+ }
+
+ .hamburger.open .line:nth-child(1) {
+     transform:rotate(-45deg) translateY(7px);
+ }
+ .hamburger.open .line:nth-child(2) {
+     transform:translateX(20px);
+      opacity: 0; 
+ }
+ .hamburger.open .line:nth-child(3) {
+     transform:rotate(45deg) translateY(-7px);
+ }
+  .mobile{
+   position: absolute;
+   top: 180px;
+   left: 5px;
+   background-color:wheat;
+   width: 30%;
+    display: none;cursor: pointer; 
+    transition: 3s;
+  }
+
+  .mobile li{
+    padding: 10px 0;
+    text-align: center;
+  }
+  .mobile li:hover{
+    background-color: rgb(109, 233, 109);
+  }
+  .mobile a:hover{
+    color: #fff;
+  }
+  .mobile a{font-size: 15px;
+
+  }
+
+.show{
+  display:block !important;
+ animation:enter 1s ease-in-out;
+}
+@keyframes enter{0%{transform:translateX(-200px);}
+100%{transform:translateX(0);}}
+
+.pageloader{background-color: wheat;
+  width: 100%;
+  height: 100%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+.modal-container{position: fixed;height: 500px;width: 100%;top: 150px;display: none;justify-content: center;cursor: pointer;}
+.modal{display: flex;position: relative;width: 50%;height: 80%;
+color: white;justify-content: center;
+}
+.modal-img{background-color: #fff;}
+.close{position: absolute;right: 110px;color:rgb(43, 39, 39);font-size: 35px;cursor: pointer;}
+
+      @media screen and (max-width:920px){
+.nav{flex-direction:column}
+   .modal-container{top: 300px;position: fixed;} 
+}
+
+ @media screen and (max-width:500px){
+.unlist{flex-direction:column}
+.close{position: absolute;right: 50px;color:rgb(43, 39, 39);font-size: 25px;cursor: pointer;}
+.modal{display: flex;position: relative;width: 70%;height: 80%;
+  color: white;justify-content: center;
+  }
+}
+
+@media screen and (max-width:1252px){
+.elishaman{flex-wrap:wrap;justify-content:center;display:flex;flex-direction:column;}
+.elijah h2{flex-direction:column;padding:0;text-align:center;flex-wrap:wrap}}
+
+
+
+
+
+
+@media screen and (max-width:818px){
+.people{flex-direction:column}}
+
+@media screen and (max-width:1118px){
+.shoe{flex-wrap:wrap}}
+
+
+
+@media screen and (max-width:812px){
+.stored{flex-direction:column}}
+
+@media screen and (max-width:720px){
+.fashion{flex-direction:column;}
+.overtrend{flex-wrap:wrap}
+.startrend{display:flex;flex-wrap:wrap;justify-content:center}
+.girlfinal{display:flex;flex-wrap:wrap;justify-content:center}
+.elijah{flex-direction:column}
+
+.trending{padding:0;text-align:center}
+.silono{padding:0;text-align:center;margin:20px}
+.popular{padding:0;text-align:center;margin:30px}
+.product{padding:0;text-align:center;margin:20px}
+.reduce{padding:0;text-align:center}
+
+
+.follow{padding:0;text-align:center}
+.final-img{padding:3px 5px}
+.apple{margin-top:5px }
+.andriod{margin: 0 10px }
+.stored{margin: 13px 240px }
+.mobil{display:flex;text-align:center;flex-wrap:wrap;justify-content: center;}
+.secure{display:flex;margin:0 10px;flex-wrap:wrap}
+.baggirl{flex-wrap:wrap}
+.bagg{padding:0 10px}
+.menu{display:none;}
+.hamburger{display:block;}}
+
+
+
+@media screen and (max-width:458px){
+.glass{width:100%}
+.glass-img{width:90%;object-fit:cover}
+.baggirl{width:100%}
+.good-img{width:100%;object-fit:cover}
+.fashion{flex-wrap:wrap;justify-content:center;}
+.girl-img{width:100%;object-fit:cover;height:auto}
+.great-img{width:90%;height:auto;object-fit:contain}
+.shopi{text-align:center;display:flex;margin:auto;margin-top:30px;border-radius:5px}
+
+.girlfinal{width:100%}
+.final-img{width:80%;object-fit:contain}
+.mobile{justify-content:center}}
+
+
+
+
